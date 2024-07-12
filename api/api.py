@@ -6,10 +6,10 @@ import os
 import numpy as np
 
 app = FastAPI()
-
-SVC = joblib.load(r'C:\Users\USER\Desktop\Machine Learning API\models\SVC_pipeline.pkl')
-gradient_boost = joblib.load(r'C:\Users\USER\Desktop\Machine Learning API\models\gradient_boost_pipeline.pkl')
-encoder = joblib.load(r'C:\Users\USER\Desktop\Machine Learning API\label_encoder.pkl')
+# loading models and encoder
+SVC = joblib.load('..\models\SVC_pipeline.pkl')  
+gradient_boost = joblib.load('..\models\gradient_boost_pipeline.pkl')
+encoder = joblib.load('..\label_encoder.pkl')
 
 class DfFeatures(BaseModel):
     PRG: int
