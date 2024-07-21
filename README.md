@@ -320,6 +320,7 @@ To run the project, execute the following command:
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/felo10)
 - Medium: [Medium Profile]()
 - Email: [email](felixkwemoi7@gmail.com)
+- deployed app :[Sreamlit app](http://localhost:8501)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
