@@ -7,9 +7,9 @@ import numpy as np
 
 app = FastAPI()
 # loading models and encoder
-SVC = joblib.load('..\models\SVC_pipeline.pkl')  
-gradient_boost = joblib.load('..\models\gradient_boost_pipeline.pkl')
-encoder = joblib.load('..\label_encoder.pkl')
+SVC = joblib.load('./models/SVC_pipeline.pkl')  
+gradient_boost = joblib.load('./models/gradient_boost_pipeline.pkl')
+encoder = joblib.load('./models/label_encoder.pkl')
 
 class DfFeatures(BaseModel):
     PRG: int
